@@ -4,45 +4,45 @@
 
 
 # static fields
-.field private static final blacklist DEBUG:Z = false
+.field private static final DEBUG:Z = false
 
-.field private static final blacklist DEVICE:Ljava/lang/String; = "ro.product.device"
+.field private static final DEVICE:Ljava/lang/String; = "ro.product.device"
 
-.field private static final blacklist SPOOF_PIXEL_GAMES:Ljava/lang/String; = "persist.sys.pixelprops.games"
+.field private static final SPOOF_PIXEL_GAMES:Ljava/lang/String; = "persist.sys.pixelprops.games"
 
-.field private static final blacklist SPOOF_PIXEL_GAPPS:Ljava/lang/String; = "persist.sys.pixelprops.gapps"
+.field private static final SPOOF_PIXEL_GAPPS:Ljava/lang/String; = "persist.sys.pixelprops.gapps"
 
-.field private static final blacklist SPOOF_PIXEL_GMS:Ljava/lang/String; = "persist.sys.pixelprops.gms"
+.field private static final SPOOF_PIXEL_GMS:Ljava/lang/String; = "persist.sys.pixelprops.gms"
 
-.field private static final blacklist SPOOF_PIXEL_GPHOTOS:Ljava/lang/String; = "persist.sys.pixelprops.gphotos"
+.field private static final SPOOF_PIXEL_GPHOTOS:Ljava/lang/String; = "persist.sys.pixelprops.gphotos"
 
-.field private static final blacklist SPOOF_PIXEL_NETFLIX:Ljava/lang/String; = "persist.sys.pixelprops.netflix"
+.field private static final SPOOF_PIXEL_NETFLIX:Ljava/lang/String; = "persist.sys.pixelprops.netflix"
 
-.field private static final blacklist TAG:Ljava/lang/String;
+.field private static final TAG:Ljava/lang/String;
 
-.field private static final blacklist packagesToChangeBS4:[Ljava/lang/String;
+.field private static final packagesToChangeBS4:[Ljava/lang/String;
 
-.field private static final blacklist packagesToChangeF5:[Ljava/lang/String;
+.field private static final packagesToChangeF5:[Ljava/lang/String;
 
-.field private static final blacklist packagesToChangeMI11TP:[Ljava/lang/String;
+.field private static final packagesToChangeMI11TP:[Ljava/lang/String;
 
-.field private static final blacklist packagesToChangeMI13P:[Ljava/lang/String;
+.field private static final packagesToChangeMI13P:[Ljava/lang/String;
 
-.field private static final blacklist packagesToChangeOP8P:[Ljava/lang/String;
+.field private static final packagesToChangeOP8P:[Ljava/lang/String;
 
-.field private static final blacklist packagesToChangeOP9P:[Ljava/lang/String;
+.field private static final packagesToChangeOP9P:[Ljava/lang/String;
 
-.field private static final blacklist packagesToChangePixel5a:[Ljava/lang/String;
+.field private static final packagesToChangePixel5a:[Ljava/lang/String;
 
-.field private static final blacklist packagesToChangePixel8Pro:[Ljava/lang/String;
+.field private static final packagesToChangePixel8Pro:[Ljava/lang/String;
 
-.field private static final blacklist packagesToChangeROG6:[Ljava/lang/String;
+.field private static final packagesToChangeROG6:[Ljava/lang/String;
 
-.field private static final blacklist packagesToChangeXP5:[Ljava/lang/String;
+.field private static final packagesToChangeXP5:[Ljava/lang/String;
 
-.field private static final blacklist packagesToKeep:[Ljava/lang/String;
+.field private static final packagesToKeep:[Ljava/lang/String;
 
-.field private static final blacklist propsToChangeBS4:Ljava/util/Map;
+.field private static final propsToChangeBS4:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -53,7 +53,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangeF5:Ljava/util/Map;
+.field private static final propsToChangeF5:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -64,7 +64,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangeGeneric:Ljava/util/Map;
+.field private static final propsToChangeGeneric:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -75,7 +75,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangeMI11TP:Ljava/util/Map;
+.field private static final propsToChangeMI11TP:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -86,7 +86,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangeMI13P:Ljava/util/Map;
+.field private static final propsToChangeMI13P:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -97,7 +97,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangeOP8P:Ljava/util/Map;
+.field private static final propsToChangeOP8P:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -108,7 +108,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangeOP9P:Ljava/util/Map;
+.field private static final propsToChangeOP9P:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -119,7 +119,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangePixel5a:Ljava/util/Map;
+.field private static final propsToChangePixel5a:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -130,7 +130,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangePixel8Pro:Ljava/util/Map;
+.field private static final propsToChangePixel8Pro:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -141,7 +141,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangePixelXL:Ljava/util/Map;
+.field private static final propsToChangePixelXL:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -152,7 +152,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangeROG6:Ljava/util/Map;
+.field private static final propsToChangeROG6:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -163,7 +163,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToChangeXP5:Ljava/util/Map;
+.field private static final propsToChangeXP5:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -174,7 +174,7 @@
     .end annotation
 .end field
 
-.field private static final blacklist propsToKeep:Ljava/util/Map;
+.field private static final propsToKeep:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Map<",
@@ -186,13 +186,13 @@
     .end annotation
 .end field
 
-.field private static volatile blacklist sIsExcluded:Z
+.field private static volatile sIsExcluded:Z
 
-.field private static volatile blacklist sIsFinsky:Z
+.field private static volatile sIsFinsky:Z
 
 
 # direct methods
-.method static constructor blacklist <clinit>()V
+.method static constructor <clinit>()V
     .registers 28
 
     .line 34
@@ -768,7 +768,7 @@
     return-void
 .end method
 
-.method public constructor blacklist <init>()V
+.method public constructor <init>()V
     .registers 1
 
     .line 32
@@ -777,7 +777,7 @@
     return-void
 .end method
 
-.method private static blacklist isCallerSafetyNet()Z
+.method private static isCallerSafetyNet()Z
     .registers 2
 
     .line 424
@@ -806,7 +806,7 @@
     return v0
 .end method
 
-.method static synthetic blacklist lambda$isCallerSafetyNet$1(Ljava/lang/StackTraceElement;)Z
+.method static synthetic lambda$isCallerSafetyNet$1(Ljava/lang/StackTraceElement;)Z
     .registers 2
 
     .line 425
@@ -829,7 +829,7 @@
     return p0
 .end method
 
-.method static synthetic blacklist lambda$setProps$0(Ljava/lang/String;Ljava/lang/Object;)V
+.method static synthetic lambda$setProps$0(Ljava/lang/String;Ljava/lang/Object;)V
     .registers 2
 
     .line 246
@@ -838,7 +838,7 @@
     return-void
 .end method
 
-.method public static blacklist onEngineGetCertificateChain()V
+.method public static onEngineGetCertificateChain()V
     .registers 2
 
     .line 431
@@ -865,19 +865,15 @@
     :cond_f
     sget-object v0, Lcom/android/internal/util/arrow/PixelPropsUtils;->TAG:Ljava/lang/String;
 
-    const-string v1, "Blocked key attestation"
+    const-string v1, "key attestation"
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 433
-    new-instance v0, Ljava/lang/UnsupportedOperationException;
-
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
-
-    throw v0
+    return-void
 .end method
 
-.method private static blacklist setPropValue(Ljava/lang/String;Ljava/lang/Object;)V
+.method private static setPropValue(Ljava/lang/String;Ljava/lang/Object;)V
     .registers 5
 
     .line 378
@@ -941,7 +937,7 @@
     return-void
 .end method
 
-.method public static blacklist setProps(Ljava/lang/String;)V
+.method public static setProps(Ljava/lang/String;)V
     .registers 8
 
     .line 246
@@ -1817,7 +1813,7 @@
     return-void
 .end method
 
-.method private static blacklist setVersionField(Ljava/lang/String;Ljava/lang/Object;)V
+.method private static setVersionField(Ljava/lang/String;Ljava/lang/Object;)V
     .registers 5
 
     .line 390
@@ -1881,7 +1877,7 @@
     return-void
 .end method
 
-.method private static blacklist setVersionFieldString(Ljava/lang/String;Ljava/lang/String;)V
+.method private static setVersionFieldString(Ljava/lang/String;Ljava/lang/String;)V
     .registers 5
 
     .line 402
@@ -1945,7 +1941,7 @@
     return-void
 .end method
 
-.method private static blacklist spoofBuildGms()V
+.method private static spoofBuildGms()V
     .registers 2
 
     .line 413
